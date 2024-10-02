@@ -1,0 +1,36 @@
+.facade{
+  font-family: 'FacadeGX';/*on réutilise le nom choisi au sein du fichier font_liste.css*/
+  font-variation-settings: "wght" 900, "ctst" 150 
+}
+
+.mixal{
+  font-family: 'mixal';
+  font-variation-settings: "wght" 900;
+}
+  
+#premier{
+  font-size: 450px;
+  top: 300px;
+  left: 525px;
+  position: fixed;
+  z-index: -2;
+  color: red;
+}
+  
+#deuxieme {
+  position: fixed;
+  top: 200px;
+  left: 300px;
+  transform: rotate(-25deg);
+  font-size: 200px;
+  color: black;
+}
+  
+#deuxieme1 {
+  position: fixed;
+  top: 620px;
+  left: 300px;
+  transform: rotate(25deg);
+  font-size: 200px;
+  color: black;
+} 
